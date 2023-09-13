@@ -1,0 +1,11 @@
+.page {
+    overflow: hidden;
+    padding: 24px;
+    display: grid;
+    grid-row-gap: 12px;
+    justify-items: center;
+}
+
+.error {
+    color: red;
+}

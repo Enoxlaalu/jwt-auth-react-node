@@ -1,0 +1,23 @@
+@import "src/variables.scss";
+
+.input {
+    position: relative;
+
+    input {
+        width: 100%;
+        border: 1px solid $border;
+        box-shadow: 0 3px 24px rgba(0, 0, 0, 0.05);
+        border-radius: 5px;
+        padding: 12px;
+        outline: none;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .endIcon {
+        position: absolute;
+        top: 50%;
+        right: 12px;
+        transform: translateY(-50%);
+    }
+}
